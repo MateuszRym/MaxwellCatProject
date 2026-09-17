@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0BA548DD-063E-3D28-ADF3-93B86FF2DBEC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

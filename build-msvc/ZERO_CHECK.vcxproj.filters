@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\b973dd3e8c49bc0e920768c774757e4f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{39C5A007-D722-30AD-8806-7CCF66408463}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\msvc-x64"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\build-msvc",
+    "\\shaders",
+    "\\src"
+  ],
+  "PreviewInSolutionExplorer": false
+}

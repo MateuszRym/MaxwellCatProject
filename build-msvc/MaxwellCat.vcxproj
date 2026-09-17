@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5F86A602-CD95-3C1C-BC5A-968623B945AB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>MaxwellCat</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MaxwellCat.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MaxwellCat</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxwellCat.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxwellCat</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MaxwellCat.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MaxwellCat</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MaxwellCat.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MaxwellCat</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLFW_DLL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLFW_DLL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+C:\Users\Mateusz\.vcpkg-clion\vcpkg\vcpkg.exe z-applocal --target-binary=C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/Debug/MaxwellCat.exe --installed-bin-dir=C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed/x64-windows/debug/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy_directory C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/shaders C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/Debug/shaders
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy_directory C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/textures C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/Debug/textures
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\debug\lib\glew32d.lib;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\debug\lib\glm.lib;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\debug\lib\imguid.lib;opengl32.lib;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\debug\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/Debug/MaxwellCat.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/Debug/MaxwellCat.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+C:\Users\Mateusz\.vcpkg-clion\vcpkg\vcpkg.exe z-applocal --target-binary=C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/Release/MaxwellCat.exe --installed-bin-dir=C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed/x64-windows/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy_directory C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/shaders C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/Release/shaders
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy_directory C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/textures C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/Release/textures
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\lib\glew32.lib;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\lib\glm.lib;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\lib\imgui.lib;opengl32.lib;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/Release/MaxwellCat.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/Release/MaxwellCat.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+C:\Users\Mateusz\.vcpkg-clion\vcpkg\vcpkg.exe z-applocal --target-binary=C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/MinSizeRel/MaxwellCat.exe --installed-bin-dir=C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed/x64-windows/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy_directory C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/shaders C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/MinSizeRel/shaders
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy_directory C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/textures C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/MinSizeRel/textures
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\lib\glew32.lib;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\lib\glm.lib;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\lib\imgui.lib;opengl32.lib;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/MinSizeRel/MaxwellCat.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/MinSizeRel/MaxwellCat.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+C:\Users\Mateusz\.vcpkg-clion\vcpkg\vcpkg.exe z-applocal --target-binary=C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/RelWithDebInfo/MaxwellCat.exe --installed-bin-dir=C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed/x64-windows/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy_directory C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/shaders C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/RelWithDebInfo/shaders
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy_directory C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/textures C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/RelWithDebInfo/textures
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\lib\glew32.lib;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\lib\glm.lib;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\lib\imgui.lib;opengl32.lib;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/RelWithDebInfo/MaxwellCat.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/RelWithDebInfo/MaxwellCat.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject -BC:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc --check-stamp-file C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystem.cmake.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindThreads.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\SelectLibraryConfigurations.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\CopyImportedTargetProperties.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-config.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-targets-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-targets-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-targets.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\vcpkg-cmake-wrapper.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfig-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfig-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfig.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfigVersion.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-config.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-targets-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-targets-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-targets.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\stb\FindStb.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\stb\vcpkg-cmake-wrapper.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject -BC:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc --check-stamp-file C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystem.cmake.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindThreads.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\SelectLibraryConfigurations.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\CopyImportedTargetProperties.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-config.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-targets-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-targets-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-targets.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\vcpkg-cmake-wrapper.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfig-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfig-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfig.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfigVersion.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-config.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-targets-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-targets-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-targets.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\stb\FindStb.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\stb\vcpkg-cmake-wrapper.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject -BC:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc --check-stamp-file C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystem.cmake.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindThreads.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\SelectLibraryConfigurations.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\CopyImportedTargetProperties.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-config.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-targets-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-targets-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-targets.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\vcpkg-cmake-wrapper.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfig-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfig-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfig.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfigVersion.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-config.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-targets-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-targets-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-targets.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\stb\FindStb.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\stb\vcpkg-cmake-wrapper.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject -BC:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc --check-stamp-file C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystem.cmake.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindThreads.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\SelectLibraryConfigurations.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\CopyImportedTargetProperties.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-config.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-targets-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-targets-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\glew-targets.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glew\vcpkg-cmake-wrapper.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfig-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfig-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfig.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\glm\glmConfigVersion.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-config.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-targets-debug.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-targets-release.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\imgui\imgui-targets.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\stb\FindStb.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\installed\x64-windows\share\stb\vcpkg-cmake-wrapper.cmake;C:\Users\Mateusz\.vcpkg-clion\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Mateusz\Downloads\files_gk\MaxwellCatProject\MaxwellCatProject\build-msvc\ZERO_CHECK.vcxproj">
+      <Project>{D49129B5-1F38-334D-ADCC-6CDC404E940F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

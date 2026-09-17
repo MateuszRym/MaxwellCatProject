@@ -1,0 +1,4 @@
+C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/imgui.dir
+C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/MaxwellCat.dir
+C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/ALL_BUILD.dir
+C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/ZERO_CHECK.dir

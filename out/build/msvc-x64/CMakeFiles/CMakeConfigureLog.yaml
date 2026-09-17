@@ -1,0 +1,505 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26220 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.14.10+8b8e13593 dla .NET Framework
+      Kompilacja rozpoczęła się 17.09.2026 17:07:32.
+      
+      Projekt „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj” w węźle 1 (domyślne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu „Debug\\”.
+        Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+        Tworzenie katalogu „Debug\\CompilerIdCXX.tlog\\”.
+      InitializeBuildStatus:
+        Trwa tworzenie „Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”, ponieważ określono "AlwaysCreate".
+        Modyfikowanie „Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku „Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”.
+        Modyfikowanie „Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”.
+      Kompilowanie projektu „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj” wykonane (domyślne elementy docelowe).
+      
+      Kompilacja powiodła się.
+          Ostrzeżenia: 0
+          Liczba błędów: 0
+      
+      Czas, który upłynął: 00:00:00.99
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-mrp0wi"
+      binary: "C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-mrp0wi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Mateusz/.vcpkg-clion/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-mrp0wi'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dec5e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.10+8b8e13593 dla .NET Framework
+        Kompilacja rozpoczęła się 17.09.2026 17:07:34.
+        
+        Projekt „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-mrp0wi\\cmTC_dec5e.vcxproj” w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu „cmTC_dec5e.dir\\Debug\\”.
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-mrp0wi\\Debug\\”.
+          Tworzenie katalogu „cmTC_dec5e.dir\\Debug\\cmTC_dec5e.tlog\\”.
+        InitializeBuildStatus:
+          Trwa tworzenie „cmTC_dec5e.dir\\Debug\\cmTC_dec5e.tlog\\unsuccessfulbuild”, ponieważ określono "AlwaysCreate".
+          Modyfikowanie „cmTC_dec5e.dir\\Debug\\cmTC_dec5e.tlog\\unsuccessfulbuild”.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dec5e.dir\\Debug\\\\" /Fd"cmTC_dec5e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.44.35209 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dec5e.dir\\Debug\\\\" /Fd"cmTC_dec5e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-mrp0wi\\Debug\\cmTC_dec5e.exe" /INCREMENTAL /ILK:"cmTC_dec5e.dir\\Debug\\cmTC_dec5e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-mrp0wi/Debug/cmTC_dec5e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-mrp0wi/Debug/cmTC_dec5e.lib" /MACHINE:X64  /machine:x64 cmTC_dec5e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_dec5e.vcxproj -> C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-mrp0wi\\Debug\\cmTC_dec5e.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku „cmTC_dec5e.dir\\Debug\\cmTC_dec5e.tlog\\unsuccessfulbuild”.
+          Modyfikowanie „cmTC_dec5e.dir\\Debug\\cmTC_dec5e.tlog\\cmTC_dec5e.lastbuildstate”.
+        Kompilowanie projektu „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-mrp0wi\\cmTC_dec5e.vcxproj” wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35209.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Users/Mateusz/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "C:/Users/Mateusz/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-1e9usp"
+      binary: "C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-1e9usp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Mateusz/.vcpkg-clion/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-1e9usp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6e112.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.10+8b8e13593 dla .NET Framework
+        Kompilacja rozpoczęła się 17.09.2026 17:07:35.
+        
+        Projekt „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-1e9usp\\cmTC_6e112.vcxproj” w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu „cmTC_6e112.dir\\Debug\\”.
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-1e9usp\\Debug\\”.
+          Tworzenie katalogu „cmTC_6e112.dir\\Debug\\cmTC_6e112.tlog\\”.
+        InitializeBuildStatus:
+          Trwa tworzenie „cmTC_6e112.dir\\Debug\\cmTC_6e112.tlog\\unsuccessfulbuild”, ponieważ określono "AlwaysCreate".
+          Modyfikowanie „cmTC_6e112.dir\\Debug\\cmTC_6e112.tlog\\unsuccessfulbuild”.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_6e112.dir\\Debug\\\\" /Fd"cmTC_6e112.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-1e9usp\\src.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.44.35209 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_6e112.dir\\Debug\\\\" /Fd"cmTC_6e112.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-1e9usp\\src.cxx"
+          src.cxx
+        C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-1e9usp\\src.cxx(1,10): error C1083: Nie można otworzyć pliku dołącz: 'pthread.h': No such file or directory [C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-1e9usp\\cmTC_6e112.vcxproj]
+        Kompilowanie projektu „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-1e9usp\\cmTC_6e112.vcxproj” wykonane (domyślne elementy docelowe) — NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-1e9usp\\cmTC_6e112.vcxproj” (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-1e9usp\\src.cxx(1,10): error C1083: Nie można otworzyć pliku dołącz: 'pthread.h': No such file or directory [C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-1e9usp\\cmTC_6e112.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.37
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Users/Mateusz/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "C:/Users/Mateusz/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-3jvoi0"
+      binary: "C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-3jvoi0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Mateusz/.vcpkg-clion/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-3jvoi0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b8135.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.10+8b8e13593 dla .NET Framework
+        Kompilacja rozpoczęła się 17.09.2026 17:07:36.
+        
+        Projekt „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-3jvoi0\\cmTC_b8135.vcxproj” w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu „cmTC_b8135.dir\\Debug\\”.
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-3jvoi0\\Debug\\”.
+          Tworzenie katalogu „cmTC_b8135.dir\\Debug\\cmTC_b8135.tlog\\”.
+        InitializeBuildStatus:
+          Trwa tworzenie „cmTC_b8135.dir\\Debug\\cmTC_b8135.tlog\\unsuccessfulbuild”, ponieważ określono "AlwaysCreate".
+          Modyfikowanie „cmTC_b8135.dir\\Debug\\cmTC_b8135.tlog\\unsuccessfulbuild”.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b8135.dir\\Debug\\\\" /Fd"cmTC_b8135.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-3jvoi0\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.44.35209 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b8135.dir\\Debug\\\\" /Fd"cmTC_b8135.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-3jvoi0\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-3jvoi0\\Debug\\cmTC_b8135.exe" /INCREMENTAL /ILK:"cmTC_b8135.dir\\Debug\\cmTC_b8135.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-3jvoi0/Debug/cmTC_b8135.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-3jvoi0/Debug/cmTC_b8135.lib" /MACHINE:X64  /machine:x64 cmTC_b8135.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie można otworzyć pliku "pthreads.lib" [C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-3jvoi0\\cmTC_b8135.vcxproj]
+        Kompilowanie projektu „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-3jvoi0\\cmTC_b8135.vcxproj” wykonane (domyślne elementy docelowe) — NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-3jvoi0\\cmTC_b8135.vcxproj” (domyślny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie można otworzyć pliku "pthreads.lib" [C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-3jvoi0\\cmTC_b8135.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.52
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Users/Mateusz/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "C:/Users/Mateusz/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-ldvjgr"
+      binary: "C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-ldvjgr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Mateusz/.vcpkg-clion/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-ldvjgr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d4f91.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.10+8b8e13593 dla .NET Framework
+        Kompilacja rozpoczęła się 17.09.2026 17:07:37.
+        
+        Projekt „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-ldvjgr\\cmTC_d4f91.vcxproj” w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu „cmTC_d4f91.dir\\Debug\\”.
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-ldvjgr\\Debug\\”.
+          Tworzenie katalogu „cmTC_d4f91.dir\\Debug\\cmTC_d4f91.tlog\\”.
+        InitializeBuildStatus:
+          Trwa tworzenie „cmTC_d4f91.dir\\Debug\\cmTC_d4f91.tlog\\unsuccessfulbuild”, ponieważ określono "AlwaysCreate".
+          Modyfikowanie „cmTC_d4f91.dir\\Debug\\cmTC_d4f91.tlog\\unsuccessfulbuild”.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_d4f91.dir\\Debug\\\\" /Fd"cmTC_d4f91.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-ldvjgr\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.44.35209 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_d4f91.dir\\Debug\\\\" /Fd"cmTC_d4f91.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-ldvjgr\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-ldvjgr\\Debug\\cmTC_d4f91.exe" /INCREMENTAL /ILK:"cmTC_d4f91.dir\\Debug\\cmTC_d4f91.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-ldvjgr/Debug/cmTC_d4f91.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-ldvjgr/Debug/cmTC_d4f91.lib" /MACHINE:X64  /machine:x64 cmTC_d4f91.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie można otworzyć pliku "pthread.lib" [C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-ldvjgr\\cmTC_d4f91.vcxproj]
+        Kompilowanie projektu „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-ldvjgr\\cmTC_d4f91.vcxproj” wykonane (domyślne elementy docelowe) — NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        „C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-ldvjgr\\cmTC_d4f91.vcxproj” (domyślny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie można otworzyć pliku "pthread.lib" [C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-ldvjgr\\cmTC_d4f91.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.54
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26220 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.14.10+8b8e13593 dla .NET Framework
+      Kompilacja rozpocz─Ö┼éa si─Ö 17.09.2026 17:22:09.
+      
+      Projekt ÔÇ×C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu ÔÇ×Debug\\ÔÇŁ.
+        Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+        Tworzenie katalogu ÔÇ×Debug\\CompilerIdCXX.tlog\\ÔÇŁ.
+      InitializeBuildStatus:
+        Trwa tworzenie ÔÇ×Debug\\CompilerIdCXX.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+        Modyfikowanie ÔÇ×Debug\\CompilerIdCXX.tlog\\unsuccessfulbuildÔÇŁ.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku ÔÇ×Debug\\CompilerIdCXX.tlog\\unsuccessfulbuildÔÇŁ.
+        Modyfikowanie ÔÇ×Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstateÔÇŁ.
+      Kompilowanie projektu ÔÇ×C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+      
+      Kompilacja powiod┼éa si─Ö.
+          Ostrze┼╝enia: 0
+          Liczba b┼é─Öd├│w: 0
+      
+      Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.63
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-jmg7e9"
+      binary: "C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-jmg7e9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/Mateusz/.vcpkg-clion/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Mateusz/.vcpkg-clion/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-jmg7e9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a2fc0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.10+8b8e13593 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 17.09.2026 17:22:10.
+        
+        Projekt ÔÇ×C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-jmg7e9\\cmTC_a2fc0.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_a2fc0.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-jmg7e9\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_a2fc0.dir\\Debug\\cmTC_a2fc0.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_a2fc0.dir\\Debug\\cmTC_a2fc0.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_a2fc0.dir\\Debug\\cmTC_a2fc0.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a2fc0.dir\\Debug\\\\" /Fd"cmTC_a2fc0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Qt\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35209 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a2fc0.dir\\Debug\\\\" /Fd"cmTC_a2fc0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Qt\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-jmg7e9\\Debug\\cmTC_a2fc0.exe" /INCREMENTAL /ILK:"cmTC_a2fc0.dir\\Debug\\cmTC_a2fc0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-jmg7e9/Debug/cmTC_a2fc0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/out/build/msvc-x64/CMakeFiles/CMakeScratch/TryCompile-jmg7e9/Debug/cmTC_a2fc0.lib" /MACHINE:X64  /machine:x64 cmTC_a2fc0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a2fc0.vcxproj -> C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-jmg7e9\\Debug\\cmTC_a2fc0.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku ÔÇ×cmTC_a2fc0.dir\\Debug\\cmTC_a2fc0.tlog\\unsuccessfulbuildÔÇŁ.
+          Modyfikowanie ÔÇ×cmTC_a2fc0.dir\\Debug\\cmTC_a2fc0.tlog\\cmTC_a2fc0.lastbuildstateÔÇŁ.
+        Kompilowanie projektu ÔÇ×C:\\Users\\Mateusz\\Downloads\\files_gk\\MaxwellCatProject\\MaxwellCatProject\\out\\build\\msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-jmg7e9\\cmTC_a2fc0.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+        
+        Kompilacja powiod┼éa si─Ö.
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 0
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.59
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35209.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

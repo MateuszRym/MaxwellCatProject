@@ -1,0 +1,10 @@
+^C:\USERS\MATEUSZ\DOWNLOADS\FILES_GK\MAXWELLCATPROJECT\MAXWELLCATPROJECT\CMAKELISTS.TXT
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject -BC:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc --check-stamp-file C:/Users/Mateusz/Downloads/files_gk/MaxwellCatProject/MaxwellCatProject/build-msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
